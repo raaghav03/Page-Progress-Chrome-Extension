@@ -1,0 +1,19 @@
+#scroll-percentage {
+  display: flex;
+  width: 2.2rem;
+  height: 2.2rem;
+  padding: 0.75rem 0.75rem;
+  font-family: Roboto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 225rem;
+  background: #171717;
+  position: fixed;
+  top: 0;
+  right: 0;
+  color: white;
+  z-index: 1000;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
