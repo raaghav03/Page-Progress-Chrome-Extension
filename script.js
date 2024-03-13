@@ -11,7 +11,7 @@ function updateScrollPercentage() {
   const windowHeight = window.innerHeight; // viewport height
   const pageHeight = document.body.scrollHeight - windowHeight; // subtracting windowHeight to find scrollable height
   const scroll = pageHeight > 0 ? (windowScroll / pageHeight) * 100 : 100; // setting scroll percentage to 0 is scroll position is 0
-  const scrollPercentage = `${scroll.toFixed(0)}%`; // converting it zero decimal places
+  const scrollPercentage = `${scroll.toFixed(0)}%`; // converting it zero decimal place
 
   percentageDisplay.textContent = scrollPercentage; 
 }
