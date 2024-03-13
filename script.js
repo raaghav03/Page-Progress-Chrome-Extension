@@ -12,7 +12,7 @@ function updateScrollPercentage() {
   const pageHeight = document.body.scrollHeight - windowHeight; // subtracting windowHeight to find scrollable height
   let scroll = pageHeight > 0 ? (windowScroll / pageHeight) * 100 : 100; // setting scroll percentage to 0 is scroll position is 0
   scroll = Math.min(scroll, 100);
-  if (scroll > 0 && scroll <= 25) {
+  if (scroll >= 0 && scroll <= 25) {
     percentageDisplay.classList.add("bg-color-1");
     percentageDisplay.classList.remove(
       "bg-color-2",
