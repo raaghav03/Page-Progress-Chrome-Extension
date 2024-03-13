@@ -8,12 +8,28 @@
   justify-content: center;
   align-items: center;
   border-radius: 225rem;
-  background: #171717;
   position: fixed;
   top: 0;
   right: 0;
   color: white;
   z-index: 1000;
-  margin-right: 0.5rem;
-  margin-top: 0.5rem;
+  margin-right: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.bg-color-1 {
+  background-color: #ff4356;
+  transition: background-color 0.5s ease;
+}
+.bg-color-2 {
+  background-color: #c8e6c9;
+  transition: background-color 0.5s ease;
+}
+.bg-color-3 {
+  background-color: #bbdefb;
+  transition: background-color 0.5s ease;
+}
+.bg-color-4 {
+  background-color: #d1c4e9;
+  transition: background-color 0.5s ease;
 }
